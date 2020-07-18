@@ -13,7 +13,7 @@ The codes are tested based on Python 3.8. Compatibility with previous versions i
 
 ### Notes related to gmpy2
 
-The Python package gmpy2 drastically improves the performance of cryptographic computations. However, it is not easy to install gmpy2, especially on the Windows platform. Please follow the instructions on the [documentation of gmpy2](https://gmpy2.readthedocs.io/en/latest/intro.html#installation) to make sure the package, along with its dependencies, is successfully installed.
+The Python package gmpy2 drastically improves the performance of cryptographic computations. However, it is usually not easy to install gmpy2, especially on the Windows platform. Please follow the instructions on the [documentation of gmpy2](https://gmpy2.readthedocs.io/en/latest/intro.html#installation) to make sure the package, along with its dependencies, is successfully installed.
 
 ### System requirements
 

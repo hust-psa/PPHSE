@@ -118,14 +118,14 @@ class LowLevelCtrlCenter(object):
                     bnd_flow_H.loc[r.index, 1] = l_par.b.to_numpy()
         return bnd_flow_H
 
-    def compute_delta_yi(self):
-        # This function computes delta_yi
+    def compute_yi(self):
+        # This function computes yi
         r = csr_matrix(self.sem.create_rx(self.E)).T
         Hi = csr_matrix(self.sem.create_hx_jacobian(self.E))
         Gi = Hi.T * (self.Ri_inv * Hi)
-        delta_yi = spsolve(Gi, Hi.T * (self.Ri_inv * r))
-        self.Hi, self.Gi, self.delta_yi = Hi, Gi, delta_yi
-        return delta_yi
+        yi = spsolve(Gi, Hi.T * (self.Ri_inv * r))
+        self.Hi, self.Gi, self.delta_yi = Hi, Gi, yi
+        return yi
 
     def report_bnd_flow_terms(self, container):
         # This function computes the intermediate terms for computing bnd_flow_h and bnd_flow_H.

@@ -52,7 +52,7 @@ def run_pphse(ips_net, secure=True, key_len=2048, fast_decoupled=False,
             for idx, lcc in lccs.items():
                 tic = time.perf_counter()
                 # LCC computes delta_yi
-                lcc.compute_delta_yi()
+                lcc.compute_yi()
                 # LCC reports intermediate terms for computing bnd_flow_hi and bnd_flow_Hi
                 data = lcc.report_bnd_flow_terms(hcc.bnd_flow_terms)
                 # encrypt and sign the reported data messages

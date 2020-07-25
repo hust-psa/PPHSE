@@ -24,7 +24,6 @@ The framework supports multiprocessing. More CPU cores are favorable for improvi
 ```
 $ python main.py
 ```
-The results shown in `result.txt` are obtained by running the codes on a cloud server with 32 virtual CPUs (with a clock speed of 3.2 GHz each) and 64 GB RAM.
 
 ## About us
 

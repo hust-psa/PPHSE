@@ -28,3 +28,10 @@ $ python main.py
 ## About us
 
 We are from Power System Analysis Research Group of Huazhong University of Science and Technology. Our research interests include power system computations, cybersecurity, and artificial intelligence applications. We welcome contributions and suggestions to this framework of any kind. If you have any question, please send emails to [jywang@hust.edu.cn](mailto://jywang@hust.edu.cn).
+
+### Citation
+
+Please cite the following paper when you refer to the framework.
+
+> J. Wang, D. Shi, J. Chen, and C.-C. Liu, "Privacy-Preserving Hierarchical State Estimation in Untrustworthy Cloud Environments," *IEEE Trans. Smart Grid*, 2020, Early Access.
+

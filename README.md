@@ -6,7 +6,7 @@ This repository includes the codes of PPHSE, a Python framework designed for con
 
 Please cite the following paper when you refer to the framework.
 
-> J. Wang, D. Shi, J. Chen, and C.-C. Liu, "Privacy-Preserving Hierarchical State Estimation in Untrustworthy Cloud Environments," *IEEE Trans. Smart Grid*, 2020, Early Access.
+> J. Wang, D. Shi, J. Chen and C. -C. Liu, "Privacy-Preserving Hierarchical State Estimation in Untrustworthy Cloud Environments," in IEEE Transactions on Smart Grid, vol. 12, no. 2, pp. 1541-1551, March 2021, doi: 10.1109/TSG.2020.3023891.
 
 ## Dependencies
 
